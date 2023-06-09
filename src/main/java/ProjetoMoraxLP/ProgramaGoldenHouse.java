@@ -301,7 +301,8 @@ public class ProgramaGoldenHouse{
                 //dar uma olhada na lista com for each
                 case 8:
                     //gerente brabo
-                    JOptionPane.showMessageDialog(null, "Meu nome é Ari e eu não tô nem aíKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK");
+                    ImageIcon iconC = new ImageIcon("cachorroChupetao.jpg");
+                    JOptionPane.showMessageDialog(null, "TUC TUC TUC TUC","Golden House",JOptionPane.PLAIN_MESSAGE,iconC);
                     break;
                 case 9:
                     //converter dolar
@@ -358,6 +359,8 @@ public class ProgramaGoldenHouse{
                     break;
                 case 10:
                     //jogo do bicho KKKKKKKKKKK
+                    ImageIcon iconU = new ImageIcon("urubuDoPix.jpeg");
+                    JOptionPane.showMessageDialog(null,"Pode vir chegando que o jogo do bicho tá rolando","Golden House",JOptionPane.PLAIN_MESSAGE,iconU);
                     String nomeAnimal = JOptionPane.showInputDialog("""
                             Deseja apostar em qual animal?
                             Avestruz
