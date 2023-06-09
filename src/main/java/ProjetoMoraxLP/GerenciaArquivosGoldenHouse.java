@@ -67,7 +67,6 @@ public class GerenciaArquivosGoldenHouse extends GoldenHouseUsuario implements A
                     String cpf = partes[2];
                     String idade = partes[3];
                     String telefone = partes[4];
-                    //git config --global user.email "samuel.rodrigues@dcx.ufpb.br"
                     String numConta = partes[5];
                     String chavePix = partes[6];
                     double limiteCreditoFinal = Double.parseDouble(partes[7]);
